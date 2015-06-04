@@ -50,8 +50,8 @@ data = ungzip(data)
 _xsrf = getXSRF(data.decode())
 
 url += 'login'
-id = '76704155@qq.com'
-password = 'ranshiwei412'
+id = 'This is your account'
+password = 'This is your password'
 postDict = {
     '_xsrf': _xsrf,
     'email':id,
